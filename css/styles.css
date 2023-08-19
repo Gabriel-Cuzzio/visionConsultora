@@ -41,8 +41,7 @@ a {
   font-family: var(--fuentePrincipal);
   font-weight: bold;
   padding: 1rem;
-  /*Margen interno*/
-  /*margin: 1rem; margen externo*/
+
   color: var(--blanco);
 }
 
@@ -56,9 +55,9 @@ a {
   color: var(--blanco);
   padding: 1rem 4rem;
   border-radius: .7rem;
-  /*bordes redondeados*/
+
   text-transform: uppercase;
-  /*Pone las letras en mayuscula y lowercase todas en minusculas*/
+
 }
 
 .container {
@@ -90,7 +89,8 @@ a {
   width: 15rem;
   height: 9rem;
 }
-.contenedor{
+
+.contenedor {
   display: flex;
   row-gap: 2rem;
   column-gap: 2rem;
@@ -100,7 +100,7 @@ a {
   display: flex;
   align-items: center;
   background-color: var(--blanco);
-  
+
 }
 
 .cards {
@@ -110,26 +110,29 @@ a {
   gap: 1rem;
   width: 40%;
   margin-top: 3rem;
- }
+}
 
-.sombra{
-  -webkit-box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.75);
+.sombra {
+  -webkit-box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 11px -4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.75);
   border-radius: .8rem;
   padding: 2rem;
 }
-p{
+
+p {
   text-align: center;
   color: var(--blanco);
   background-color: var(--principal);
   border-radius: .5rem;
   height: 3rem;
 }
-footer{
+
+footer {
   margin-top: 6rem;
 }
-.texto{
+
+.texto {
   background-color: var(--blanco);
   width: auto;
   height: 41.5rem;
@@ -138,7 +141,8 @@ footer{
   align-content: end;
   margin-top: 3rem;
 }
-.parrafoSeccion{
+
+.parrafoSeccion {
   background-color: var(--blanco);
   color: var(--negro);
 }
